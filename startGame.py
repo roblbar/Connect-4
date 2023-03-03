@@ -1,5 +1,4 @@
 # Author: Robert L Barrera
-# NetID: rbarre4    ACCC: rbarrera
 # Class: CS474, Spring 2019
 # Homework 4 : Main
 # System: Windows 10

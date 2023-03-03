@@ -1,5 +1,4 @@
 # Author: Robert L Barrera
-# NetID: rbarre4    ACCC: rbarrera
 # Class: CS474, Spring 2019
 # Homework 4 : GameController Class
 # System: Windows 10
@@ -21,10 +20,10 @@ class Connect4Runner:
 
 	def play_game(self):
 		game_being_played = True
-		self.connect_4.set_spacing(int(input("Please choose the board spacing: ")))
-		print("Type the column in which you wish to move.")
 
 		while game_being_played:
+			self.connect_4.set_spacing(int(input("Please choose the board spacing: ")))
+			print("Type the column in which you wish to move.")
 			self.connect_4.print_board()
 			no_winner = True
 			turn_count = 1
